@@ -19,9 +19,9 @@
             <image>
                 <Image url="@../assets/image/bg.jpg" />
             </image></ImageView>
-        <Label alignment="CENTER" layoutX="199.0" layoutY="47.0" text="welcome">
+        <Label alignment="CENTER" layoutX="193.0" layoutY="47.0" text="welcome">
             <font>
-                <Font name="Arial Rounded MT Bold" size="59.0" />
+                <Font name="Algerian" size="59.0" />
             </font>
         </Label>
         <JFXTextField fx:id="txtUsername" focusColor="#2503a1" labelFloat="true" layoutX="89.0" layoutY="187.0" prefHeight="43.0" prefWidth="474.0" promptText="Username" style="-fx-background-color: white;" unFocusColor="BLACK">
@@ -120,7 +120,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </JFXButton>
-        <Label alignment="CENTER" layoutX="150.0" layoutY="117.0" prefHeight="37.0" prefWidth="343.0" text="Login to your account ">
+        <Label alignment="CENTER" layoutX="150.0" layoutY="117.0" prefHeight="37.0" prefWidth="343.0" text=" to login your account ">
             <font>
                 <Font name="Arial Rounded MT Bold" size="23.0" />
             </font>

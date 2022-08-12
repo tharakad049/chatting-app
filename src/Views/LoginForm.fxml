@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="loginContext" prefHeight="815.0" prefWidth="642.0" style="-fx-background-color: white; -fx-background-radius: 20px;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginFormController">
+<AnchorPane prefHeight="815.0" prefWidth="642.0" style="-fx-background-color: white; -fx-background-radius: 20px;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginFormController">
     <children>
         <ImageView fitHeight="815.0" fitWidth="545.0" layoutX="51.0" opacity="0.41" pickOnBounds="true" smooth="false">
             <image>
@@ -109,7 +109,7 @@
                 <Font name="System Bold" size="18.0" />
             </font>
         </Label>
-        <JFXButton fx:id="btnSignup" buttonType="RAISED" layoutX="238.0" layoutY="717.0" onAction="#signupOnAction" prefHeight="45.0" prefWidth="171.0" ripplerFill="#eb46c7" style="-fx-background-color: #38cccf;" text="SIGN UP">
+        <JFXButton fx:id="btnSignUp" buttonType="RAISED" layoutX="238.0" layoutY="717.0" onAction="#signupOnAction" prefHeight="45.0" prefWidth="171.0" ripplerFill="#eb46c7" style="-fx-background-color: #38cccf;" text="SIGN UP">
             <font>
                 <Font name="System Bold" size="21.0" />
             </font>

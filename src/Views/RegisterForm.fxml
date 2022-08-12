@@ -1,14 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="Controller.RegisterFormController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane fx:id="registerContext" prefHeight="815.0" prefWidth="642.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RegisterFormController">
+    <children>
+        <ImageView fitHeight="646.0" fitWidth="561.0" layoutX="62.0" layoutY="129.0" pickOnBounds="true">
+            <image>
+                <Image url="@../assets/image/bg.jpg" />
+            </image>
+        </ImageView>
+        <Label alignment="CENTER" layoutX="103.0" layoutY="75.0" text="Create An Account">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="43.0" />
+            </font>
+        </Label>
+        <JFXTextField fx:id="txtUsername" focusColor="#1d017f" labelFloat="true" layoutX="87.0" layoutY="265.0" prefHeight="43.0" prefWidth="474.0" promptText="Enter Username">
+            <font>
+                <Font size="17.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </JFXTextField>
+        <JFXPasswordField fx:id="txtPassword" focusColor="#1d017f" labelFloat="true" layoutX="87.0" layoutY="347.0" prefHeight="43.0" prefWidth="474.0" promptText="Enter Password">
+            <font>
+                <Font size="17.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </JFXPasswordField>
+        <JFXButton fx:id="btnSignUp" buttonType="RAISED" layoutX="184.0" layoutY="450.0" onAction="#signUpOnAction" prefHeight="43.0" prefWidth="269.0" style="-fx-background-color: #51a408; -fx-background-radius: 30px;" text="SIGN UP">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+            <effect>
+                <DropShadow />
+            </effect>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXTextField fx:id="txtName" focusColor="#1d017f" labelFloat="true" layoutX="88.0" layoutY="185.0" prefHeight="43.0" prefWidth="474.0" promptText="Enter Name">
+            <font>
+                <Font size="17.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </JFXTextField>
+        <Label layoutX="154.0" layoutY="638.0" text="Already a member ?  " textFill="#7c7070">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <JFXCheckBox checkedColor="#c91377" layoutX="197.0" layoutY="548.0" text="I agree to the">
+            <font>
+                <Font size="16.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </JFXCheckBox>
+        <Label layoutX="324.0" layoutY="550.0" text="Terms &amp; Policy" textFill="#436bbf">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <JFXButton fx:id="btnLogin" buttonType="RAISED" layoutX="325.0" layoutY="629.0" onAction="#loginOnAction" prefHeight="45.0" prefWidth="90.0" ripplerFill="#1a3deb" style="-fx-background-color: e0add2;" text="LOGIN">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+            <effect>
+                <DropShadow />
+            </effect>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+    </children>
 </AnchorPane>

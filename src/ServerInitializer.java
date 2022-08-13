@@ -13,7 +13,7 @@ public class ServerInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Views/ServerSide.fxml"))));
+        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Views/LoginForm.fxml"))));
         primaryStage.show();
     }
 }

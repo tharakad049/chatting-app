@@ -14,6 +14,7 @@ public class LoginFormController {
     public JFXButton btnSignUp;
 
     public void forgotPasswordOnAction(ActionEvent actionEvent) {
+
         
     }
 

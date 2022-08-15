@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="messaging-app:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/messaging_app_jar</output-path>
+    <root id="archive" name="messaging-app.jar">
+      <element id="module-output" name="messaging-app" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jfoenix-8.0.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

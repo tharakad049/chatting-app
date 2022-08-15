@@ -24,7 +24,7 @@
                <children>
                   <ImageView fitHeight="810.0" fitWidth="582.0" layoutX="15.0" pickOnBounds="true">
                      <image>
-                        <Image url="@../../../src/assets/image/bg.jpg" />
+                        <Image url="@../assets/image/bg.jpg" />
                      </image>
                   </ImageView>
                   <Label alignment="CENTER" layoutX="117.0" layoutY="27.0" prefHeight="58.0" prefWidth="396.0" text="Create An Account" textFill="#070300">
@@ -182,22 +182,22 @@
                   </Button>
                   <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="137.0" layoutY="614.0" pickOnBounds="true" smooth="false">
                      <image>
-                        <Image url="@../../../src/assets/logo/icons8-google-48.png" />
+                        <Image url="@../assets/logo/icons8-google-48.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="242.0" layoutY="614.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../src/assets/logo/icons8-gmail-48.png" />
+                        <Image url="@../assets/logo/icons8-gmail-48.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="341.0" layoutY="614.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../src/assets/logo/icons8-twitter-48.png" />
+                        <Image url="@../assets/logo/icons8-twitter-48.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="433.0" layoutY="614.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../src/assets/logo/icons8-facebook-48.png" />
+                        <Image url="@../assets/logo/icons8-facebook-48.png" />
                      </image>
                   </ImageView>
                </children>
